@@ -1,5 +1,5 @@
 # spring-data-redis-optional
-You have to install redis in your local before run this application
+You have to install redis in your local with port "6379" before run this application
 
 mvn spring-boot:run
 
