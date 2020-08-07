@@ -22,3 +22,7 @@ My logic code is very simple:
 if studentId found, return existing RedisStudent object.
 
 else create new RedisStudent & store in Redis, return new RedisStudent object.
+
+
+Install Redis for Windows as link below
+https://github.com/MicrosoftArchive/redis/releases
