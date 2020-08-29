@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@RedisHash(value = "student", timeToLive = 900L)
+@RedisHash(value = "student", timeToLive = 60L)
 public class RedisStudent implements Serializable {
   private static final long serialVersionUID = 1L;
 

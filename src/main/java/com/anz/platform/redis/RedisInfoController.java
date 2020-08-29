@@ -1,6 +1,7 @@
 package com.anz.platform.redis;
 
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -33,6 +34,11 @@ public class RedisInfoController {
     student.setAge("28");
     student.setCreationTime(LocalDateTime.now());
     return redisStudentRepository.save(student);
+  }
+
+  @GetMapping("/student/all")
+  public List<RedisStudent> getRedisStudent() {
+    return redisStudentRepository.findAll();
   }
 
   @DeleteMapping("/student")
