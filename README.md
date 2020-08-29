@@ -5,7 +5,7 @@ mvn spring-boot:run
 
 GET http://localhost:8080/redis/student?studentId=12345
 
-DELETE http://localhost:8080/redis/student#
+DELETE http://localhost:8080/redis/student
 
 
 
@@ -14,7 +14,7 @@ DELETE http://localhost:8080/redis/student#
 spring repository findById() is working fine on spring-data-redis version 2.3.1.RELEASE
 
 its failed on spring-data-redis version 2.3.2.RELEASE
-
+which is fixed on spring-data-redis version 2.3.3.RELEASE
 
 
 My logic code is very simple:
