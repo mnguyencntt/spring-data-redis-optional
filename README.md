@@ -14,6 +14,7 @@ DELETE http://localhost:8080/redis/student
 spring repository findById() is working fine on spring-data-redis version 2.3.1.RELEASE
 
 its failed on spring-data-redis version 2.3.2.RELEASE
+
 which is fixed on spring-data-redis version 2.3.3.RELEASE
 
 
